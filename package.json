@@ -1,0 +1,34 @@
+{
+  "name": "graphql-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node --presets es2015,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --single-quote --trailing-comma es5 --write \"**/*{.ts,.js,.json,.css,.scss}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "express-jwt": "^5.3.1",
+    "graphql": "^14.0.2",
+    "graphql-tool": "^1.0.0",
+    "graphql-tools": "^4.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.16",
+    "validator": "^10.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.4",
+    "prettier": "^1.14.2"
+  }
+}
